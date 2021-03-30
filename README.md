@@ -1,6 +1,6 @@
 # Matt's Awesome App
     
-    #### Table of contents
+    ### Table of contents
     1. [Project Description](#project-description)
     2. [Installation Instructions](#installation-instructions)
     3. [Usage Information](#usage-information)
