@@ -3,6 +3,9 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const writeFile = util.promisify(fs.writeFile);
+const generate = require('./generateMarkdown.js');
+const path = require('path');
+
 
 
 function userPrompt() {
@@ -99,10 +102,8 @@ function createReadme(results) {
 };
 // TODO: Create a function to initialize app
 userPrompt()
-.then(function(results) {
-    const readMe = createReadme(results);
-
-    return writeFile("README.md", readMe);
+.then((results) => {
+    return fs.writeFileSync("README.md", createReadme(results)), generate(results);
 })
 .then(function(){
     console.log("Your professional README has been created!")
