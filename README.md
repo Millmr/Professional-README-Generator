@@ -18,7 +18,7 @@
 ## Usage Information
 * Enter your information for a README and the app will generate it for you!
     
-##Contributor Guidlines
+## Contributor Guidlines
 * Any Contributions.
     
 ## Test Instructions

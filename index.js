@@ -87,7 +87,7 @@ function createReadme(results) {
     ## Usage Information
     * ${results.usage}
     
-    ##Contributor Guidlines
+    ## Contributor Guidlines
     * ${results.contributions}
     
     ## Test Instructions
